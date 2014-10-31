@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FoodFund</title>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:600&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+
+<style>
+body {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	color: black;
+	background-color: white;
+}
+
+header {
+	padding: 20px;
+	background: url("http://indianapublicmedia.org/eartheats/files/2010/02/canned-vegetables.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+ul {
+	padding: 10px;
+	background: rgba(0,0,0,0.5);
+	color: white;
+	
+}
+
+img {
+	display: center;
+	border: 5px black solid;
+	border-radius:10px;
+	height: 200x;
+	width:auto;
+
+}
+
+li {
+	font-size: 25px;
+	padding: 0px 10px 0px 10px;
+	display: inline;
+}
+
+a {
+	text-decoration: none;
+	color: #0FA;
+}
+
+p {
+	display:block;
+	color:black;
+	font-size:20px;
+}
+
+input {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	;
+	}
+
+input[type="email"] {
+	margin:0px;
+	padding:10px
+}
+
+input[type="submit"] {
+	background: #F03;
+	color:white;
+	padding:10px;
+}
+
+</style>
+</head>
+	<body>
+		<header>
+			<img src="FoodFundLogo.jpg"/>
+			<ul>
+				<li><a href="#">ABOUT</a></li>
+				<li><a href="#">GET STARTED</a></li>
+				<li><a href="#">TEAM</a></li>
+				<li><a href="#">CONTACT US</a></li>
+			</ul>
+			
+		</header>
+		
+		<p style="padding:0px 0px 30px 0px">FoodFund makes it affordable to eat well. It enables groups of people to crowd fund food to get wholesale prices.</p>
+
+		<p style="margin=0px">Interested? Sign up to get news here</p>
+		<input type="email" placeholder="Your e-mail">
+		<input type="submit">
+
+	</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
