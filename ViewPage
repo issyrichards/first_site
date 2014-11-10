@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Products</title>
+<link href='http://fonts.googleapis.com/css?family=Lato:100italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+<link rel='stylesheet' type='text/css' href="stylesheet.css"
+</head>
+<body>
+<table>
+	<thead>
+		<tr>
+			<th class="tableheader" colspan="3">Products by category</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td class="productcategory" id="cupboard">
+				<a href="#">Cupboard</a>
+			</td>
+			<td class="productcategory" id="toiletries">
+				<a href="#">Toiletries</a>
+			</td>
+			<td class="productcategory" id="cleaning">
+				<a href="#">Cleaning</a>
+			</td>
+		</tr>
+	</tbody>
+
+</table>
+
+<footer>
+	<a id="footercontact" href="#">Contact</a>
+</footer>
+</body>
+
+</html>

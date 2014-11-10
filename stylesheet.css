@@ -1,0 +1,170 @@
+body {
+	margin:0;
+	padding: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	text-align: center;
+	color: black;
+	background-color: white;
+}
+
+header {
+	margin: 100px 0 0 0;
+}
+
+div {
+	margin: 0;
+	width: 100%;
+	height: 300px;
+	margin: 0 auto;
+	background: url("http://indianapublicmedia.org/eartheats/files/2010/02/canned-vegetables.jpg");
+	background-size: cover;
+	color: white;
+}
+
+button {
+	background-color: #2e8272;
+	padding: 10px;
+	border-radius: 10px;
+	color: white;
+	font-size: 12px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+	padding-top: 100px;
+}
+
+.logo {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	border: 1px black solid;
+	border-radius:10px;
+	height: 75px;
+	width:auto;
+}
+
+ul {
+	margin: 0;
+	padding: 10px;
+	background: #ABABAB;
+	color: white;
+	
+}
+
+li {
+	font-size: 25px;
+	display: inline;
+	padding: 0px 60px 0px 60px;
+}
+
+a {
+	text-decoration: none;
+	color: #0FA;
+	font-size: 20px;
+}
+
+p {
+	display:block;
+	color:black;
+	font-size:20px;
+}
+
+.description {
+padding:0px 0px 30px 0px;
+}
+
+.calltoaction {
+	margin:0 0 10px 0;
+}
+input {
+	font-size: 15px;
+	}
+
+input[type="email"] {
+	margin:0px;
+	padding:10px;
+}
+
+input[type="submit"] {
+	background: #F03;
+	color:white;
+	padding:10px;
+}
+
+.productcategory {
+	color: white;
+	padding: 100px;
+}
+
+#cupboard {
+	background: url("http://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Jelly_Jars_-_Tanglewood_Gardens_-_Nova_Scotia%2C_Canada.jpg/800px-Jelly_Jars_-_Tanglewood_Gardens_-_Nova_Scotia%2C_Canada.jpg");
+	background-size: cover;
+}
+
+#toiletries {
+	background: url("http://www.bestbritishsweets.co.uk/user/products/large/P9050002.JPG");
+	background-size: cover;
+}
+
+#cleaning {
+	background: url("http://melcleaning.co.uk/wp-content/uploads/2013/04/cleaning-solutions-1.jpg");
+	background-size: cover;
+}
+
+footer {
+	position: absolute;
+	bottom: auto;
+}
+
+#footercontact {
+	font-size: 10px;
+}
+
+table {
+	margin: 0 auto;
+}
+
+.tableheader {
+	padding: 50px;
+	font-size: 70px;
+}
+
+@media (max-width:950px) {
+			li {
+			display: block;
+			padding: 5px 0 5px 0;
+			background-color: white;
+		}
+
+		a {
+			color: black;
+		}
+
+		ul {
+			border: 0;
+			background-color: white;
+		}
+
+		header {
+			margin: 20px 0 0 0;
+		}
+
+
+		.logo {
+			height: 25px;
+		}
+
+		div {
+			height: 200;
+		}
+
+		h1 {
+			padding-top: 50px;
+		}
+
+		.description {
+			padding: 0 0 10px 0;
+		}
+
+		}

@@ -17,10 +17,16 @@
 			</ul>
 			
 		</header>
-		
-		<p style="padding:0px 0px 30px 0px">FoodFund makes it affordable to eat well. It enables groups of people to crowd fund food to get wholesale prices.</p>
 
-		<p style="margin=0px">Interested? Sign up to get news here</p>
+		<div>
+			<h1>GET YOUR ESSENTIALS CHEAP</h1>
+			<h3>Crowdfund your essentials and keep costs down</h3>
+			<button type="button">Show me the goods</button>
+		</div>
+		
+		<p class="description">FoodFund enables you to eat well for less. Crowdfund food purchases with others to get wholesale prices</p>
+
+		<p class="calltoaction">Interested? Sign up to get news here</p>
 		<input type="email" placeholder="Your e-mail">
 		<input type="submit">
 
