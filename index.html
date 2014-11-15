@@ -1,66 +1,66 @@
 <!DOCTYPE html>
+
 <html>
-<head>
-	<link href='http://fonts.googleapis.com/css?family=Lato:100italic' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
-	<link href="stylesheet.css" rel="stylesheet" type="text/css">
-
-<title>FoodFund</title>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-56622003-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-</head>
+	<head>
+		<link href="dist/css/bootstrap.css" rel="stylesheet">
+		<link href="main2.css" rel="stylesheet" type="text/css">
+	</head>
 	<body>
-		<header>
-			<img class="logo" src="FoodFundLogo.jpg"/>
-			<ul>
-				<li><a href="#">ABOUT</a></li>
-				<li><a href="ViewPage">PRODUCTS</a></li>
-				<li><a href="#">TEAM</a></li>
-				<li><a href="#">CONTACT US</a></li>
-			</ul>
-			
-		</header>
+		<nav class="nav navbar-default navbar-fixed-top">
+			<div class="container">
+			<div class="navbar-header"><img id="logo" src="everydayproject.jpg"/></div>
 
-		<div>
-			<h1>GET YOUR ESSENTIALS CHEAP</h1>
-			<h3>Crowdfund your essentials and keep costs down</h3>
-			<button type="button">Show me the goods</button>
+			<div class="collapse navbar-collapse">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#about">about</a></li>
+				<li><a href="diaries">see the diaries</a></li>
+				<li><a href="#action">contribute</a></li>
+			</ul>
+			</div>
 		</div>
-		
-		<p class="description">FoodFund enables you to eat well for less. Crowdfund food purchases with others to get wholesale prices</p>
+		</nav>
+
+	<div class="jumbotron">
+		<div class="container">
+			<h1>What do bankers actually do every day?</h1>
+			<div class="row">
+				<div class="col-sm-7">
+					<img id="diary" class="img-responsive" src="diary.jpg"/>
+				</div>
+				<div class="col-sm-5">
+					<p>Too often we make choose careers based on company credentials and kudos.</p> 
+					<p>But it's what we spend our time <em>doing</em> that determines whether we're happy at work.</p> 
+
+					<p>We'll only understand what people do, if we tell each other.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="action">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<h2 id="calltoaction">Help people choose jobs they'll enjoy. <br /> Show them what your diary looked like last week</h2>
+					<button class="btn btn-lg">share a week</button>	
+				</div>
+		</div>
+	</div>
+
+
+	<!--<div id="signup">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<p class="description">FoodFund enables you to eat well for less. Crowdfund food purchases with others to get wholesale prices</p>
 
 		<p class="calltoaction">Interested? Sign up to get news here</p>
 		<input type="email" placeholder="Your e-mail">
 		<input type="submit">
+				</div>
+			</div>
+		</div>
+	</div>-->
 
 	</body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </html>
